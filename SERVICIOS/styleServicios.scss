@@ -1,0 +1,30 @@
+$primary-color: #ffff;
+$hover-color: #cccc;
+$page-color: #000000;
+
+@font-face{ 
+  font-family: "Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url(texgyrebonum-bold.otf);}
+
+ 
+.titulo-prin{
+	background-color:$page-color;
+	font-size: 3rem;
+	font-family: Bold;
+	color:$primary-color;
+}
+
+
+.container{
+	  max-width: 1200px;
+  margin: auto; }
+
+ 
+ .footer {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: $primary-color;
+  font-family: Bold; 
+}
