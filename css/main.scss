@@ -21,10 +21,12 @@ src:url(PathwayGothicOne-Regular.ttf);}
 $primary-color: #ffff;
 $hover-color: #cccc;
 $page-color: #000000;
-html{
-    background-color: $page-color;
-}
-.container{
+
+
+.container-fluid{
+  background-color:$page-color;
+  color:$primary-color;
+  font-family: Bold;
   max-width: 1200px;
   margin: auto;
 }
@@ -35,10 +37,11 @@ html{
   left: 0;
   top: 0;
   right: 0;
-} 
+  background-color: $page-color;
+  } 
 
 .header 
-  a{
+   a{
   color:$primary-color;
  background-color: $page-color;
   text-decoration: none;
@@ -111,13 +114,11 @@ border-radius: 5px;
 
     }
     
-.main{
-  padding-top: 12rem;
-}
-.footer {
+    .footer {
    padding:0.5rem 0;
   text-align:center;
- background-color:$primary-color;
+ background-color:
+ $primary-color;
  font-family: Bold;
 }
 @media only screen and (max-width: 767px){
