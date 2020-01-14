@@ -16,64 +16,33 @@ src:url(PathwayGothicOne-Regular.ttf);}
   font-style: normal;
   font-weight: 400;
   src: url(texgyrebonum-bold.otf);}
+
  
 
 $primary-color: #ffff;
 $hover-color: #cccc;
 $page-color: #000000;
 
-
-.container-fluid{
-  background-color:$page-color;
-  color:$primary-color;
-  font-family: Bold;
- }
-
-.navbar{
- padding:1rem 1rem;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;anda
-} 
-
-.nav-item{
-  color:$primary-color;
- text-decoration: none;
-  align-items: center;
+.nav-item {
+color:$primary-color;
+text-decoration: none;
+align-items: center;
+margin:0;
+padding :0;
+font-family: Pathway Gothic One;
 }
 
-.logo-nav{
-  display: flex;
- justify-content: space-between;
- align-items:center;
- flex-wrap: wrap;
-}
-.logo {
+
+.brand-logo {
 font-family:"Nuaz";
 font-size:5em;
+color: $primary-color;
 }
+.brand-logo:hover {
+color:$hover-color;
+}
+
  
-
-.navegacion 
-  ul{
-  margin:0;
-  padding :0;
-  font-family: Pathway Gothic One;
-}
-
-.navegacion ul li{
-  display: inline-block;
-}
-.navegacion ul li a{
-display:block;
-padding: 0.5rem 1rem;
-transition: all 0.4s linear;
-border-radius: 5px;
-}
-.navegacion ul li a:hover{
-  background: $hover-color;
- }
 .pimg1, .pimg2,.pimg3{
     position:relative;
     background-position:center;
@@ -98,53 +67,21 @@ border-radius: 5px;
      padding: 50px 80px;
    }
   
-     .section-dark{
+ .section-dark{
       font-family: Bold;
       color:$primary-color;
       background-color: $page-color;
 
     }
-    
-    .footer {
-   padding:0.5rem 0;
-  text-align:center;
- background-color:
- $primary-color;
+ .footer {
+ padding:0.5rem 0;
+ text-align:center;
+ background-color:$primary-color;
  font-family: Bold;
+ color: $page-color;
 }
-@media only screen and (max-width: 767px){
-  .menu-icon{
-    display: block;
-    cursor: pointer;
-     } 
-.navegacion ul.show {
-    display: block;
-}
-.navegacion{
-  width: 100%;
-  margin-top:1rem;
-}
-.navegacion ul li{
-  display: block;
-}
-.navegacion ul li a{
-display:block;
-padding: 0.5rem 0;
-transition: all 0.4s linear;
-border-radius: 5px;
-}
-.navegacion ul li a:hover{
-  background: $hover-color;
- }
- .span nav{
-  width: 80%;
-  height: calc(100% - 80px);
-  position: fixed;
-  right:100%;
-  margin: 0;
-  overflow: scroll;
- }
-}
+
+
 
 
 
