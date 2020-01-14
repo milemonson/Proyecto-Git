@@ -12,11 +12,7 @@
   font-family: "Bold";
   font-style: normal;
   font-weight: 400;
-  src: url(texgyrebonum-bold.otf); }
-
-.container {
-  max-width: 1200px;
-  margin: auto; }
+   src: url(texgyrebonum-bold.otf); }
 
 .header {
   padding: 1rem 1rem;
@@ -91,9 +87,6 @@ ul {
   font-family: Bold;
   color: #ffff;
   background-color: #000000; }
-
-.main {
-  padding-top: 12rem; }
 
 .footer {
   padding: 0.5rem 0;

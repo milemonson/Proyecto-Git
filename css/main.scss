@@ -27,28 +27,23 @@ $page-color: #000000;
   background-color:$page-color;
   color:$primary-color;
   font-family: Bold;
-  max-width: 1200px;
-  margin: auto;
-}
+ }
 
-.header{
+.navbar{
  padding:1rem 1rem;
-  position:fixed;
+  position: fixed;
   left: 0;
   top: 0;
-  right: 0;
-  background-color: $page-color;
-  } 
+  right: 0;anda
+} 
 
-.header 
-   a{
+.nav-item{
   color:$primary-color;
- background-color: $page-color;
-  text-decoration: none;
+ text-decoration: none;
   align-items: center;
 }
 
-.logo-nav-container{
+.logo-nav{
   display: flex;
  justify-content: space-between;
  align-items:center;
@@ -58,9 +53,7 @@ $page-color: #000000;
 font-family:"Nuaz";
 font-size:5em;
 }
- .menu-icon{
-  display: none
- }
+ 
 
 .navegacion 
   ul{
@@ -87,12 +80,10 @@ border-radius: 5px;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    opacity: 0.7;
-
-  }
+    }
   .pimg1 {
     background-image: url("../HOME/18160834_253508908457782_7283848940095537152_n.jpg");
-     min-height: 1000px;  
+     min-height: 500px;  
     }
     .pimg2 {
     background-image: url("../HOME/IMG_5070.jpg");
