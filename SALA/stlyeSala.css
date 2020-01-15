@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("texgyrebonum-bold.otf"); }
+.pimg4, .pimg5 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.section-photos {
+  background-color: #000000;
+  margin-bottom: 0; }
+
+.pimg4 {
+  background-image: url("./ezgif.com-gif-maker.gif");
+  min-height: 400px; }
+
+.pimg5 {
+  background-image: url("./Leviathan Original (1).png");
+  min-height: 500px; }
+
+.section {
+  text-align: center;
+  padding: 50px 80px; }
+
+.section-photos {
+  text-align: center;
+  color: #ffff;
+  font-family: Bold; }
+
+.section-grilla {
+  font-family: Bold;
+  color: #ffff;
+  background-color: #000000; }
+
+.footer {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: #ffff;
+  font-family: Bold; }
+
+/*# sourceMappingURL=stlyeSala.css.map */
