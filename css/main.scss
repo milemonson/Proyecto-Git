@@ -24,7 +24,7 @@ $hover-color: #cccc;
 $page-color: #000000;
 
 .nav-item {
-color:$primary-color;
+color:$page-color;
 text-decoration: none;
 align-items: center;
 margin:0;
@@ -51,8 +51,8 @@ color:$hover-color;
     background-attachment:fixed;
     }
   .pimg1 {
-    background-image: url("../HOME/18160834_253508908457782_7283848940095537152_n.jpg");
-     min-height: 500px;  
+    background-image: url("../HOME/Sala.jpg");
+     min-height: 1000px;  
     }
     .pimg2 {
     background-image: url("../HOME/IMG_5070.jpg");
