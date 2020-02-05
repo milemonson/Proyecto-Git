@@ -4,10 +4,10 @@
   font-weight: 400;
   src: url(PathwayGothicOne-Regular.ttf); }
 @font-face {
-  font-family: "Nuaz";
+  font-family: "Shadowed Germanica";
   font-style: normal;
   font-weight: 400;
-  src: url(Nuaz.otf); }
+  src: url("Shadowed Germanica.ttf"); }
 @font-face {
   font-family: "Bold";
   font-style: normal;
@@ -22,7 +22,7 @@
   font-family: Pathway Gothic One; }
 
 .brand-logo {
-  font-family: "Nuaz";
+  font-family: "Shadowed Germanica";
   font-size: 5em;
   color: #ffff; }
 
