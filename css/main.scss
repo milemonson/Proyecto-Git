@@ -6,10 +6,10 @@
 src:url(PathwayGothicOne-Regular.ttf);}
  
 @font-face{ 
-  font-family: "Shadowed Germanica";
+  font-family: "Electric";
   font-style: normal;
   font-weight: 400;
-  src:url("Shadowed Germanica.ttf");}
+  src:url(Electric.otf);}
 
 @font-face{ 
   font-family: "Bold";
@@ -34,7 +34,7 @@ font-family: Pathway Gothic One;
 
 
 .brand-logo {
-font-family:"Shadowed Germanica";
+font-family:"Electric";
 font-size:5em;
 color: $primary-color;
 }

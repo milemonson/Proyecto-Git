@@ -4,12 +4,26 @@ $hover-color: #cccc;
 $page-color: #000000;
 
 @font-face{ 
+  font-family: "Electric";
+  font-style: normal;
+  font-weight: 400;
+  src:url(Electric.otf);}
+
+@font-face{ 
   font-family: "Bold";
   font-style: normal;
   font-weight: 400;
   src: url(texgyrebonum-bold.otf);}
 
+  @font-face{
+    font-family:"Pathway Gothic One"; 
+    font-style: normal;
+    font-weight:400; 
+   src:url(PathwayGothicOne-Regular.ttf);}
+   
+
 .container-fluid{
+  padding: 10rem 0;
   background-color:$page-color;
   color:$primary-color;
   font-family: Bold;
@@ -18,6 +32,23 @@ $page-color: #000000;
 .titulo-prin{
    font-size: 2rem;
 }
+.brand-logo {
+  font-family:"Electric";
+  font-size:5em;
+  color: $primary-color;
+  }
+  .brand-logo:hover {
+  color:$hover-color;
+  }
+  .nav-item {
+    color:$page-color;
+    text-decoration: none;
+    align-items: center;
+    margin:0;
+    padding :0;
+    font-family: Pathway Gothic One;
+    }
+  
 .item-hover{
   
   background: url("../HOME/18155841_1358777557532228_4450031307762565533_o.jpg") no-repeat center / cover;
@@ -35,4 +66,11 @@ button {
   border-radius: 50%;
   padding: 0;
   background: $primary-color
+}
+.footer {
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: $primary-color;
+  font-family: Bold; 
+  color: $page-color;
 }

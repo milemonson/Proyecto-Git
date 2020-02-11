@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "Electric";
+  font-style: normal;
+  font-weight: 400;
+  src: url(Electric.otf); }
+@font-face {
   font-family: "Bold";
   font-style: normal;
   font-weight: 400;
@@ -8,10 +13,22 @@
   font-style: normal;
   font-weight: 400;
   src: url(PathwayGothicOne-Regular.ttf); }
+.container-fluid {
+  padding: 10rem;
+  background-color: #000000; }
+
 .text-light {
   font-family: Bold;
   font-size: 2em;
   color: #ffff; }
+
+.brand-logo {
+  font-family: "Electric";
+  font-size: 5em;
+  color: #ffff; }
+
+.brand-logo:hover {
+  color: #cccc; }
 
 .nav-item {
   color: #ffff;
@@ -21,51 +38,51 @@
   padding: 0;
   font-family: Pathway Gothic One; }
 
-.grilla {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 5rem; }
+.filter-button {
+  font-size: 18px;
+  border: 2px solid #ffff;
+  padding: 5px 10px;
+  text-align: center;
+  color: #ffff;
+  margin-bottom: 30px;
+  background: transparent; }
 
-.grilla {
-  background-image: url("./IMG_5103.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active {
+  color: #000000;
+  background-color: #ffff;
+  outline: none; }
 
-.img {
-  float: left;
-  -webkit-transition-duration: 0.5s; }
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%; }
 
-.img img {
-  padding: 10px;
-  border: 1px solid #fff; }
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease; }
 
-.img:hover {
-  -webkit-transform: scale(0.8);
-  -webkit-box-shadow: 0px 0px 30px #ccc; }
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); }
 
-#img-1:hover .galeria {
-  height: 0%;
-  width: 0%; }
-
-#img-2:hover .galeria {
-  height: 0%;
-  width: 0%; }
-
-#img-3:hover .galeria {
-  width: 0%;
-  height: 0%; }
-
-#img-4:hover .galeria {
-  height: 0%;
-  width: 0%; }
-
-#img-5:hover .galeria {
-  height: 0%;
-  width: 0%; }
-
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%; } }
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem; } }
 .footer {
   padding: 0.5rem 0;
   text-align: center;

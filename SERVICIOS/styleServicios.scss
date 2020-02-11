@@ -1,26 +1,48 @@
 $primary-color: #ffff;
 $hover-color: #cccc;
 $page-color: #000000;
+@font-face{ 
+  font-family: "Electric";
+  font-style: normal;
+  font-weight: 400;
+  src:url(Electric.otf);}
 
 @font-face{ 
   font-family: "Bold";
   font-style: normal;
   font-weight: 400;
   src: url(texgyrebonum-bold.otf);}
+  @font-face{
+    font-family:"Pathway Gothic One"; 
+    font-style: normal;
+    font-weight:400; 
+   src:url(PathwayGothicOne-Regular.ttf);}
+   
 
- 
-.titulo-prin{
-	background-color:$page-color;
-	font-size: 3rem;
-	font-family: Bold;
-	color:$primary-color;
+  .brand-logo {
+    font-family:"Electric";
+    font-size:5em;
+    color: $primary-color;
+    }
+    .brand-logo:hover {
+    color:$hover-color;
+    }
+    .nav-item {
+      color:$page-color;
+      text-decoration: none;
+      align-items: center;
+      margin:0;
+      padding :0;
+      font-family: Pathway Gothic One;
+      }
+    
+
+
+.container-fluid{
+background-color: $page-color;
+padding: 10rem;
+margin: auto; 
 }
-
-
-.container{
-	  max-width: 1200px;
-  margin: auto; }
-
  
  .footer {
   padding: 0.5rem 0;
